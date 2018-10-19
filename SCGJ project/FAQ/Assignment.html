@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="css\font-awesome.min.css">
+	<style type="text/css">
+	.mb-0{
+		color: #55b258;
+	}
+
+	button.btn.collapsed:before {
+		content:"+"
+	}
+
+	button.btn:before {
+		content: '-';
+	}
+
+	a.nav-link {
+		color: #54b258;
+	}
+
+	.nav-pills .nav-link.active {
+		color: #fff;
+		background-color: #55b258;
+	}
+	@media(min-width: 1200px){    
+		.sticky{
+			top:13vh;
+		}
+	}    
+</style>
+<title>FAQ</title>
+</head>
+
+<body>
+	<div class="container mb-5" >
+		<div class="fixed-top" style="background-color: #dbefdc;">
+			<div class="float-left">
+				<img src="img\img.png" class="img-fluid p-3" width="155px" height="55px" alt="Smatl&amp;Beryl">
+			</div>
+			<div class="float-right p-3">
+				<div class="">
+					User
+					<br>
+					<img src="img\logout.png" class=" img-fluid" width="20px" height="15px" alt="Logout">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 col-sm-2 pt-5" style="background-color: #dbefdc;">
+				<div class="nav flex-column nav-pills text-sm-center text-md-left pb-2 sticky-top sticky" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					<a class="nav-link" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab" aria-controls="v-pills-dashboard"
+					aria-selected="true">
+					<i class="fa fa-big fa-tachometer"></i> Dashboard</a>
+					<a class="nav-link" id="v-pills-registration-tab" data-toggle="pill" href="#v-pills-registration" role="tab" aria-controls="v-pills-registration"
+					aria-selected="false">
+					<i class="fa fa-big fa-user"></i> Registration</a>
+					<a class="nav-link" id="v-pills-import-tab" data-toggle="pill" href="#v-pills-import" role="tab" aria-controls="v-pills-import"
+					aria-selected="false">
+					<i class="fa fa-big fa-cloud"></i> Import</a>
+					<a class="nav-link active" id="v-pills-faq-tab" data-toggle="pill" href="#v-pills-faq" role="tab" aria-controls="v-pills-faq"
+					aria-selected="false">
+					<i class="fa fa-big fa-question"></i> FAQ</a>
+					<a class="nav-link" id="v-pills-batches-tab" data-toggle="pill" href="#v-pills-batches" role="tab" aria-controls="v-pills-batches"
+					aria-selected="false">
+					<i class="fa fa-big fa-globe"></i> Batches</a>
+				</div>
+			</div>
+			<div class="col-md-10 col-sm-10 p-4 mt-3" style="background-color: #c1d2bf17">
+				<div class="tab-content" id="v-pills-tabContent">
+					<div class="tab-pane fade" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">
+						<div class="row text-white">
+							<div class="col-md-3 col-sm-12 p-2">
+								<div class="card text-center">
+									<div class="card-body" style="background-color: #f4ac3c">
+										<h5 class="card-title">Panel 1</h5>
+									</div>
+									<h6 class="card-header" style="background-color: #c78d32">Total Trainers</h6>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12 p-2">
+								<div class="card text-center">
+									<div class="card-body" style="background-color: #a4c4e4">
+										<h5 class="card-title">Panel 2</h5>
+									</div>
+									<h6 class="card-header" style="background-color: #6f9ece">Candidates Enrolled</h6>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12 p-2">
+								<div class="card text-center">
+									<div class="card-body" style="background-color: #c48c7c">
+										<h5 class="card-title">Panel 3</h5>
+									</div>
+									<h6 class="card-header" style="background-color: #b17766">Candidates Certified</h6>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12 p-2">
+								<div class="card text-center">
+									<div class="card-body" style="background-color: #54c4dc">
+										<h5 class="card-title">Panel 4</h5>
+									</div>
+									<h6 class="card-header" style="background-color: #328192">Training Centers</h6>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 p-2">
+								<img src="img\Slide1.JPG" class="img-fluid">
+							</div>
+							<div class="col-md-6 p-2">
+								<img src="img\Slide3.JPG" class="img-fluid">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 p-2">
+								<img src="img\Pie Chart.png" class="img-fluid">
+							</div>
+							<div id="issue" class="col-md-6 p-2">
+								<img src="img\Slide4.JPG" class="img-fluid">
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="v-pills-registration" role="tabpanel" aria-labelledby="v-pills-registration-tab">...</div>
+					<div class="tab-pane fade" id="v-pills-import" role="tabpanel" aria-labelledby="v-pills-import-tab">...</div>
+					<div class="tab-pane fade show active" id="v-pills-faq" role="tabpanel" aria-labelledby="v-pills-faq-tab">
+						<div class="accordion" id="accordionExample">
+							<h1 class="text-center" style="color: #54b258">Frequently Asked Questions</h1>
+							<br>
+							<div class="card">
+								<div class="card-header" id="headingOne">
+									<h5 class="mb-0">
+										<span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+										aria-controls="collapseOne">FAQ1</span>
+										<button class="float-right btn btn-light pl-2 pr-2 p-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+										aria-controls="collapseOne">
+										</button>
+									</h5>
+								</div>
+								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									<div class="card-body">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+										non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+										Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
+										nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+										anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+										Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+										probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingTwo">
+									<h5 class="mb-0">
+										<span data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+										aria-controls="collapseTwo">FAQ2</span>
+										<button class="float-right btn btn-light pl-2 pr-2 p-0 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+										aria-expanded="false" aria-controls="collapseTwo">
+										</button>
+									</h5>
+								</div>
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+									<div class="card-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+									non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+									Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
+									nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+									anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+									Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+									probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingThree">
+									<h5 class="mb-0">
+									<span data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+										aria-controls="collapseThree">FAQ3</span>
+										<button class="float-right btn btn-light pl-2 pr-2 p-0 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										</button>
+									</h5>
+								</div>
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+									<div class="card-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+									non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+									Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
+									nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+									anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+									Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+									probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="v-pills-batches" role="tabpanel" aria-labelledby="v-pills-batches-tab">...</div>
+			</div>
+			<footer class="container-fluid text-center p-2 m-2" style="background-color: #c1d2bf17;">
+				<div class="row text-center d-block">
+					Copyright &copy; 2016 sscgj.in - All Rights Reserved.
+				</div>
+			</footer>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+</html>
